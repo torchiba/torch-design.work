@@ -10,7 +10,7 @@ global:
     archives: "アーカイブ"
     search: "検索"
     about: "プロフィール"
-    author_picture: "著者の絵"
+    author_picture: "source/assets/icon-torchiba.png"
     github: "GitHub"
     stack_overflow: "Stack Overflow"
     twitter: "Twitter"
@@ -67,6 +67,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: ""
+    bio: "Webデザイナー / フロントエンドエンジニア / マークアップエンジニア。色々模索&迷走中。JavaScript / Vue.js / Github / 💪☕️🍣"
     # Your job
     job: ""
