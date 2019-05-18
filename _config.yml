@@ -17,6 +17,7 @@ url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+# archive_dir: /blog/
 
 # Directory
 source_dir: source
@@ -74,6 +75,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: tranquilpeak
+exclude_generator:
+- index
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
