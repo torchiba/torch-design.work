@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: torchiba
-subtitle:
-description:
+title: torchiba's Portfolio
+subtitle: 
+description: 都内・神奈川を拠点にWebサイト制作やWebサービス開発を行っている、torchiba（とーちば）のポートフォリオです。
 keywords:
 author: torchiba
 language: ja
@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://torchiba.github.io/myblog/
+root: myblog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 # archive_dir: /blog/
@@ -81,4 +81,10 @@ theme: tranquilpeak
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/torchiba/myblog.git
+  branch: master
+
+# Sitemap(hexo-generator-sitemap)
+sitemap:
+  path: sitemap.xml
