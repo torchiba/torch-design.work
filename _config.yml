@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://torchiba.github.io/myblog/
-root: myblog
+url: https://torch-design.work/
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 # archive_dir: /blog/
@@ -82,7 +82,7 @@ theme: tranquilpeak
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/torchiba/myblog.git
+  repo: git@github.com:torchiba/torch-design.work.git
   branch: master
 
 # Sitemap(hexo-generator-sitemap)
