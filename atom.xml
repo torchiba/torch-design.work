@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>torchiba&#39;s Portfolio</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://torchiba.github.io/myblog/"/>
+  <updated>2019-05-19T11:50:46.879Z</updated>
+  <id>https://torchiba.github.io/myblog/</id>
+  
+  <author>
+    <name>torchiba</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://torchiba.github.io/myblog/2019/05/19/index/"/>
+    <id>https://torchiba.github.io/myblog/2019/05/19/index/</id>
+    <published>2019-05-19T11:50:46.876Z</published>
+    <updated>2019-05-19T11:50:46.879Z</updated>
+    
+    <content type="html"><![CDATA[<p>わんわん！！！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;わんわん！！！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
