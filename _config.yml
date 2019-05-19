@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: torchiba
-subtitle:
-description:
+title: torchiba's Portfolio
+subtitle: 
+description: 都内・神奈川を拠点にWebサイト制作やWebサービス開発を行っている、torchiba（とーちば）のポートフォリオです。
 keywords:
 author: torchiba
 language: ja
@@ -82,3 +82,7 @@ theme: tranquilpeak
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Sitemap(hexo-generator-sitemap)
+sitemap:
+  path: sitemap.xml

@@ -1,14 +1,5 @@
 ---
-# title: トップページ
-layout: page
-tags:
-frontpage: true
-header: false
-footer: false
+title: "test"
+comments: false
 ---
-# はじめまして！
-## 都内を拠点にWebサイト制作やWebサービス開発を行っています
-チーム内であれこれ話し合いながら作りあげていく開発工程がとても好きです。
-作業を行う上で人と人とのつながりを大事にしており、お互いに気持ちよくやりとりが出来るよう心がけています。
-
-## 経歴、業務経験
+わんわん！！！

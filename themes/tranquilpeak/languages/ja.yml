@@ -7,7 +7,8 @@ global:
     category: "カテゴリー"
     tags: "タグ"
     tag: "タグ"
-    archives: "アーカイブ"
+    archives: "ブログ"
+    # archives: "アーカイブ"
     search: "検索"
     about: "プロフィール"
     author_picture: "source/assets/icon-torchiba.png"
@@ -69,4 +70,4 @@ author:
     # Your biography (Markdown and HTML supported)
     bio: "都内・神奈川を拠点にWebサイト制作やWebサービス開発を行っています"
     # Your job
-    job: "Web Designer / Front-end Engineer / Markup Engineer"
+    job: "Web Designer, Front-end Engineer"

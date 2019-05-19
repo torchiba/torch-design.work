@@ -150,8 +150,9 @@ $sidebar: (
     'md-screen-width':  75px,
     'lg-screen-width':  250px,
     'xlg-screen-width': 500px,
-    'background':       rgba(17, 26, 35, 0),
-    'color':            #ebebeb
+    'background':       map-get($colors, 'theme'),
+    'color':            #fff,
+    // 'color':            #ebebeb
 );
 
 // Main
@@ -217,8 +218,8 @@ $image-gallery-photos-margin: 2px;
 
 // Main content
 $main-content: (
-    'max-width':          750px,
-    'padding-right-left': 20px,
+    'max-width':          700px,
+    'padding-right-left': 24px,
 );
 
 // Mardown

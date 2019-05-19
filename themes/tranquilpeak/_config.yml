@@ -34,10 +34,18 @@ sidebar:
             title: global.home
             url: /
             icon: fa fa-home
-        about:
-            title: global.about
-            url: /#about
-            icon: fa fa-question
+        twitter:
+            title: global.twitter
+            url: https://twitter.com/torchiba
+            icon: fab fa-twitter
+        github:
+            title: global.github
+            url: https://github.com/torchiba
+            icon: fab fa-github
+        # about:
+        #     title: global.about
+        #     url: /#about
+        #     icon: fa fa-question
         # categories:
         #     title: global.categories
         #     url: /all-categories
@@ -48,24 +56,17 @@ sidebar:
         #     icon: fa fa-tags
         # archives:
         #     title: global.archives
-        #     url: /archives
-        #     icon: fa fa-archive
+        #     url: /all-archives
+        #     icon: fa fa-pen-fancy
        
         
-    author_links:
-        
-        github:
-            title: global.github
-            url: https://github.com/torchiba
-            icon: fab fa-github
+    # author_links:
+
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
         #     icon: fab fa-stack-overflow
-        twitter:
-            title: global.twitter
-            url: https://twitter.com/torchiba
-            icon: fab fa-twitter
+        
         # facebook:
         #     title: global.facebook
         #     url: https://facebook.com/
@@ -82,11 +83,11 @@ sidebar:
         #     title: global.mail
         #     url: mailto
         #     icon: fa fa-envelope
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: fa fa-rss
+    # rss:
+    #     rss:
+    #         title: global.rss
+    #         url: /atom.xml
+    #         icon: fa fa-rss
     # search:
     #     search:
     #         title: global.search
