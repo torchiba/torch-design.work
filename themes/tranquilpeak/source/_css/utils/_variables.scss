@@ -56,7 +56,7 @@ $colors: (
     'light':   #9eabb3,
      // use for tag `a`
 	'link':    #349ef3,
-	'theme': #349ef3
+	'theme': #0c78ce
 );
 
 // Z-indexes
@@ -81,7 +81,7 @@ $z-indexes: (
 // Media Query Ranges
 // If you want to change ranges screen size, you can do it easily by changing only `$screen-min` values
 $screen-min: (
-    'xs-min': 320px,
+    // 'xs-min': 320px,
     'sm-min': 480px,
      // If you change value of `md-min`,
      // you have to change value of `mediumScreenWidth` too in `source/_js/sidebar.js`
