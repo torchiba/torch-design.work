@@ -56,7 +56,7 @@ post:
     no_title : "タイトルなし"
     categorized_in: "カテゴリー"
     tagged_in: "タグ"
-    toc: "目次"
+    toc: "もくじ"
     read_more: "続きを読む"
     go_to_website: "ウェブサイトへ"
     comment_and_share: "コメント・シェア"
@@ -67,6 +67,6 @@ post:
 
 author:
     # Your biography (Markdown and HTML supported)
-    bio: "都内を拠点にWebサイト制作やWebサービス開発を行っています"
+    bio: "都内・神奈川を拠点にWebサイト制作やWebサービス開発を行っています"
     # Your job
     job: "Web Designer / Front-end Engineer / Markup Engineer"

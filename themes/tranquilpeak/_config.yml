@@ -46,10 +46,10 @@ sidebar:
         #     title: global.tags
         #     url: /all-tags
         #     icon: fa fa-tags
-        archives:
-            title: global.archives
-            url: /all-archives
-            icon: fa fa-archive
+        # archives:
+        #     title: global.archives
+        #     url: /archives
+        #     icon: fa fa-archive
        
         
     author_links:

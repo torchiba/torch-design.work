@@ -21,35 +21,38 @@
                                .replace(/<!-- ?content ?-->/g, '<div class="main-content-wrap">');
 %>
 <article class="post">
-    <% if (post.coverCaption) { %>
-        <span class="post-header-cover-caption caption"><%= post.coverCaption %></span>
-    <% } %>
-    <% if (!post.coverImage || post.coverMeta === 'out') { %>
-        <%- partial('post/header')%>
-    <% } %>
-    <div class="post-content markdown">
-        <div class="main-content-wrap">
-            <%- postContent %>
-            <%- partial('post/gallery') %>
-        </div>
-    </div>
-    <div id="post-footer" class="post-footer main-content-wrap">
-        <% if ((post.tags) && (post.tags.length > 0)) { %>
-            <div class="post-footer-tags">
-                <span class="text-color-light text-small"><%= __('post.tagged_in') %></span><br/>
-                <%- partial('post/tag', {tags: post.tags})%>
-            </div>
-        <% } %>
-        <% if (post.actions === undefined || post.actions) { %>
-            <%- partial('post/actions', {postContent: postContent}) %>
-        <% } %>
-        <% if (post.comments) { %>
-            <% if (theme.disqus_shortname) { %>
-                <%- partial('post/disqus') %>
-            <% } else if (theme.gitment.enable) { %>
-                <%- partial('post/gitment') %>
-            <% } %>
-        <% } %>
-    </div>
+	<% if (post.header || post.header === undefined) { %>
+	<% if (post.coverCaption) { %>
+	<span class="post-header-cover-caption caption"><%= post.coverCaption %></span>
+	<% } %>
+	<% if (!post.coverImage || post.coverMeta === 'out') { %>
+	<%- partial('post/header')%>
+	<% } %>
+	<% } %>
+	<div class="post-content markdown">
+		<div class="main-content-wrap">
+			<%- postContent %>
+			<%- partial('post/gallery') %>
+		</div>
+	</div>
+	<% if (post.footer || post.footer === undefined) { %>
+	<div id="post-footer" class="post-footer main-content-wrap">
+		<% if ((post.tags) && (post.tags.length > 0)) { %>
+		<div class="post-footer-tags">
+			<span class="text-color-light text-small"><%= __('post.tagged_in') %></span><br />
+			<%- partial('post/tag', {tags: post.tags})%>
+		</div>
+		<% } %>
+		<% if (post.actions === undefined || post.actions) { %>
+		<%- partial('post/actions', {postContent: postContent}) %>
+		<% } %>
+		<% if (post.comments) { %>
+		<% if (theme.disqus_shortname) { %>
+		<%- partial('post/disqus') %>
+		<% } else if (theme.gitment.enable) { %>
+		<%- partial('post/gitment') %>
+		<% } %>
+		<% } %>
+	</div>
+	<% } %>
 </article>
-
