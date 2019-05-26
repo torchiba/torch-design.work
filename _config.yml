@@ -83,7 +83,7 @@ theme: tranquilpeak
 deploy:
   type: git
   repo: git@github.com:torchiba/torch-design.work.git
-  branch: master
+  branch: gh-pages
 
 # Sitemap(hexo-generator-sitemap)
 sitemap:
